@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   /* manrope-regular - latin */
+   @font-face {
+      font-display: swap;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 400;
+      src: url("../fonts/manrope-v13-latin-regular.woff2") format("woff2");
+   }
+
+   /* manrope-500 - latin */
+   @font-face {
+      font-display: swap;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      src: url("../fonts/manrope-v13-latin-500.woff2") format("woff2");
+   }
+
+   /* manrope-700 - latin */
+   @font-face {
+      font-display: swap;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      src: url("../fonts/manrope-v13-latin-700.woff2") format("woff2");
+   }
+
+   h1 {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 58px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+   }
+   h2 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: 1.42857px;
+      text-transform: uppercase;
+   }
+   h3 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: 1.14286px;
+      text-transform: uppercase;
+   }
+   h4 {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+   }
+
+   h5 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      letter-spacing: 1.71429px;
+      text-transform: uppercase;
+   }
+
+   h6 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1.28571px;
+      text-transform: uppercase;
+   }
+
+   ._overline {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #d87d4a;
+   }
+
+   .subtitle {
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 25px;
+      letter-spacing: 0.928571px;
+      text-transform: uppercase;
+      color: #d87d4a;
+   }
+}
